@@ -23,11 +23,27 @@
         display: flex;
         padding: 20px;
         gap: 20px;
+        flex-wrap: wrap;
       }
       .tabs .space {
         display: flex;
         flex-direction: column;
       }
+
+      .title {
+        flex: 0 0 100%; /* makes title full width */
+        font-size: 20px;
+        font-weight: bold;
+        color: #013d5b;
+      }
+
+      .space {
+        /* flex: 1 1 100px; */
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+      }
+
       a {
         text-decoration: none;
         display: inline-block;
@@ -196,6 +212,7 @@
     </div>
 
     <div class="tabs">
+      <div class="title">HTML No Fees</div>
       <div class="space">
         <a
           href="HTML_NO_FEES/Bank_No_Fees_NA_STA_HTML5_EN_NA_160x600_P00114026.html"
