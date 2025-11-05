@@ -88,20 +88,21 @@ ft-default{
 }
 
 #txt1a {
-  height: 19px;
-    left: -13px;
-    width: 305.65px;
+  height: 21px;
+  left: -13px;
+  top: 0px;
+  width: 322px;
 }
 #txt1b {
-      height: 23px;
-    left: 0;
-    top: 28px;
-    width: 318px;
+  height: 21px;
+  left: 0;
+  top: 27px;
+  width: 322px;
 }
 
 .mask {
-    left: 211px;
-    top: 23px;
+  left: 213px;
+  top: 24px;
 }
 
 .mask a {
@@ -113,7 +114,7 @@ cubic-bezier(0.7, 0.1, 0.1, 0.7) 1s shimmer;
   margin: 0px auto;
   position: relative;
   text-align: center;
-  width: 318px;
+  width: 322px;
 }
 
 #mask-glimmer{
@@ -205,25 +206,25 @@ ft-expand{
 }
 
 .txt2a {
-  height: 12px;
+  height: 15px;
   left: 0px;
-  width: 65px;
+  width: 109px;
 }
 .txt2b {
-  height: 11px;
+  height: 15px;
   left: 0;
-  top: 21px;
-  width: 85px;
+  top: 19px;
+  width: 135px;
 }
 .txt2c {
   height: 15px;
   left: 0px;
-  top: 41px;
-  width: 117px;
+  top: 40px;
+  width: 78px;
 }
 .exp-mask {
   left: 464px;
-  top: 68px;
+  top: 69px;
 }
 
 .exp-mask a {
@@ -235,7 +236,7 @@ cubic-bezier(0.7, 0.1, 0.1, 0.7) 0.25s expshimmer;
   margin: 0px auto;
   position: relative;
   text-align: center;
-  width: 119px;
+  width: 136px;
 }
 
 #exp-mask-glimmer{
