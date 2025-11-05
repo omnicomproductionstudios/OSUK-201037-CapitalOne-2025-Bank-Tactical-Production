@@ -5,7 +5,7 @@ body{
   
 }
 
-.bannerSize{width: 970px; height: 66px;}
+.bannerSize{width: 728px; height: 90px;}
 
 #cover{
   background-color: #f4f4f4;
@@ -27,53 +27,53 @@ body{
 }
 
 .defaultSize{
-  height: 66px;
-  width: 970px;
+  height: 90px;
+  width: 728px;
 }
 .expandSize{
   height: 250px;
-  width: 970px;
+  width: 728px;
 }
 
 ft-default{
   background-color: #D6E8EA;
-  height:66px;
+  height:90px;
   text-align: center;
-  width:970px;  
+  width:728px;  
   overflow: hidden;  
 }
 
 .capOneLogo{
-  height: 45px;
-  left: 27px;
-  top: 11px;
-  width: 122px;
+  height: 48px;
+  left: 32px;
+  top: 21px;
+  width: 129px;
   z-index: 400;
 }
 #redSwoop{
-  height: 45px;
-  left: 33px;
+  height: 48px;
+  left: 35px;
   top: 0;
-  width: 85px;
+  width: 90px;
 }
 #capital{
-  height: 19px;
+  height: 20px;
   left: 0;
   top: 19px;
-  width: 83px;
+  width: 88px;
 }
 #one{
-  height: 19px;
-  left: 83px;
+  height: 20px;
+  left: 88px;
   top: 19px;
-  width: 39px;
+  width: 41px;
 }
 
 .ctaCont {
-  height: 25px;
-  left: 898px;
-  top: 20px;
-  width: 16px;
+  height: 31px;
+  left: 654.5px;
+  top: 29.5px;
+  width: 20px;
 }
 .ctaCont #rArrow {
   height: inherit;
@@ -81,37 +81,44 @@ ft-default{
 }
 
 #fdicLogo{
-  height: 28px;
-  left: 808px;
-  top: 19px;
-  width: 45px;
+  height: 27px;
+  left: 592px;
+  top: 31px;
+  width: 43px;
 }
 
 #txt1a {
-  height: 23px;
-  left: 0;
-  width: 574px;
+  height: 19px;
+    left: -13px;
+    width: 305.65px;
+}
+#txt1b {
+      height: 23px;
+    left: 0;
+    top: 28px;
+    width: 318px;
 }
 
 .mask {
-  left: 178px;
-  top: 22px;
+    left: 211px;
+    top: 23px;
 }
 
 .mask a {
-  animation: 3s cubic-bezier(0.7, 0.1, 0.1, 0.7) 1s shimmer;
-  background-position: -580px 0;
+  animation: 3s 
+cubic-bezier(0.7, 0.1, 0.1, 0.7) 1s shimmer;
+  background-position: -360px 0;
   display: block;
-  height: 23px;
+  height: 51px;
   margin: 0px auto;
   position: relative;
   text-align: center;
-  width: 574px;
+  width: 318px;
 }
 
 #mask-glimmer{
-  height: 23px;
-  width: 574px;
+  height: 51px;
+  width: 356px;
 }
 
 .mask a::after {
@@ -130,10 +137,10 @@ ft-default{
 
 @keyframes shimmer {
   from {
-    background-position: -580px 0;
+    background-position: -360px 0;
   }
   to {
-    background-position: 580px 0;
+    background-position: 360px 0;
   }
 }
 
@@ -144,7 +151,7 @@ ft-expand{
     overflow: hidden;
     position:absolute;
     text-align: center;
-    width:970px;
+    width:728px;
 }
 
 #close{
@@ -156,32 +163,32 @@ ft-expand{
 }
 
 .expCapOneLogo{
-  height: 36px;
-  left: 472px;
-  top: 17px;
-  width: 98px;
+  height: 30px;
+  left: 463px;
+  top: 19.5px;
+  width: 82px;
   z-index: 399;
 }
 
 .expCapOneLogo #redSwoop{
-  height: 36px;
-  left: 27px;
+  height: 30px;
+  left: 22px;
   top: 0;
-  width: 68px;
+  width: 57px;
 }
 
 .expCapOneLogo #capital{
-  height: 15px;
+  height: 13px;
   left: 0;
-  top: 14px;
-  width: 67px;
+  top: 12px;
+  width: 55px;
 }
 
 .expCapOneLogo #one{
-  height: 15px;
-  left: 67px;
-  top: 14px;
-  width: 31px;
+  height: 13px;
+  left: 56px;
+  top: 12px;
+  width: 26px;
 }
 
 .expandBtn, .closeBtn{
@@ -198,41 +205,42 @@ ft-expand{
 }
 
 .txt2a {
-  height: 18px;
-  left: 2px;
-  width: 244px;
+  height: 12px;
+  left: 0px;
+  width: 65px;
 }
 .txt2b {
-  height: 14px;
+  height: 11px;
   left: 0;
-  top: 25px;
-  width: 222px;
+  top: 21px;
+  width: 85px;
 }
 .txt2c {
-  height: 18px;
-  left: 1px;
-  top: 50px;
-  width: 140px;
+  height: 15px;
+  left: 0px;
+  top: 41px;
+  width: 117px;
 }
 .exp-mask {
-  left: 471px;
-  top: 72px;
+  left: 464px;
+  top: 68px;
 }
 
 .exp-mask a {
-  animation: 3s cubic-bezier(0.7, 0.1, 0.1, 0.7) 0.25s expshimmer;
-  background-position: -250px 0;
+  animation: 3s 
+cubic-bezier(0.7, 0.1, 0.1, 0.7) 0.25s expshimmer;
+  background-position: -135px 0;
   display: block;
-  height: 68px;
+  height: 57px;
   margin: 0px auto;
   position: relative;
   text-align: center;
-  width: 246px;
+  width: 119px;
 }
 
 #exp-mask-glimmer{
-  height: 68px;
-  width: 246px;
+  height: 66px;
+  width: 131px;
 }
 
 .exp-mask a::after{
@@ -251,10 +259,10 @@ ft-expand{
 
 @keyframes expshimmer {
   from {
-    background-position: -250px 0;
+    background-position: -135px 0;
   }
   to {
-    background-position: 250px 0;
+    background-position: 135px 0;
   }
 }
 
@@ -263,7 +271,7 @@ ft-expand{
   height: 250px;
   left: 0;
   top: 0;
-  width: 444px;
+  width: 446px;
   z-index: 830;
 }
 #vidPoster{
@@ -285,34 +293,34 @@ ft-expand{
   width: 100%;
 }
 .ctaExpCont .ctaBtn {
-  height: 11px;
-  left: 472px;
-  top: 160px;
-  width: 87px;
+  height: 8px;
+  left: 464px;
+  top: 153px;
+  width: 60px;
 }
 .ctaExpCont #ctaTxt {
-  height: 11px;
+  height: 8px;
   left: 0;
   top: 0;
-  width: 75px;
+  width: 52px;
 }
 .ctaExpCont #rArrowExp {
-  height: 9px;
-  left: 81px;
-  top: 2px;
-  width: 6px;
+  height: 6px;
+  left: 56px;
+  top: 1px;
+  width: 4px;
 }
 
 #fdicLogoExp{
-  height: 23px;
-  left: 471px;
-  top: 213px;
-  width: 37px;
+  height: 19px;
+  left: 463px;
+  top: 209px;
+  width: 30px;
 }
 
 #jeremy{
-  height: 230px;
-  left: 743px;
-  top: 20px;
-  width: 212px;
+  height: 198px;
+  left: 582px;
+  top: 52px;
+  width: 146px;
 }

@@ -56,7 +56,6 @@ function expand(){
         .from('.txt2a', 0.35,{alpha:0, x:"+=20", ease:'power1.inOut'}, '<')
         .from('.txt2b', 0.35,{alpha:0, x:"+=20", ease:'power1.inOut'}, '<+0.1')
         .from('.txt2c', 0.35,{alpha:0, x:"+=20", ease:'power1.inOut'}, '<+0.1')
-        .from('.txt2d', 0.35,{alpha:0, x:"+=20", ease:'power1.inOut'}, '<+0.1')
         .from('.ctaExpCont', 0.35,{alpha:0, x:"+=20", ease:'power1.inOut'}, '<+0.1')
 
   gsap.delayedCall(3, onMouseEnter);

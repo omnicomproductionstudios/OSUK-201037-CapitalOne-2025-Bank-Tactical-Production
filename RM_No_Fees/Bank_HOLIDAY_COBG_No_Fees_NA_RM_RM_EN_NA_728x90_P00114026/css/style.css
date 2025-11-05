@@ -165,7 +165,7 @@ ft-expand{
 .expCapOneLogo{
   height: 30px;
   left: 463px;
-  top: 20px;
+  top: 19.5px;
   width: 82px;
   z-index: 399;
 }
@@ -206,41 +206,36 @@ ft-expand{
 
 .txt2a {
   height: 12px;
-  left: 1px;
-  width: 112px;
+  left: 0px;
+  width: 65px;
 }
 .txt2b {
-  height: 13px;
+  height: 11px;
   left: 0;
-  top: 17px;
-  width: 131px;
+  top: 21px;
+  width: 85px;
 }
 .txt2c {
-  height: 9px;
-  left: 1px;
-  top: 36px;
-  width: 89px;
-}
-.txt2d {
-  height: 13px;
-  left: 1px;
-  top: 53px;
-  width: 101px;
+  height: 15px;
+  left: 0px;
+  top: 41px;
+  width: 117px;
 }
 .exp-mask {
-  left: 463px;
-  top: 70px;
+  left: 464px;
+  top: 68px;
 }
 
 .exp-mask a {
-  animation: 3s cubic-bezier(0.7, 0.1, 0.1, 0.7) 0.25s expshimmer;
+  animation: 3s 
+cubic-bezier(0.7, 0.1, 0.1, 0.7) 0.25s expshimmer;
   background-position: -135px 0;
   display: block;
-  height: 66px;
+  height: 57px;
   margin: 0px auto;
   position: relative;
   text-align: center;
-  width: 131px;
+  width: 119px;
 }
 
 #exp-mask-glimmer{
@@ -276,7 +271,7 @@ ft-expand{
   height: 250px;
   left: 0;
   top: 0;
-  width: 444px;
+  width: 446px;
   z-index: 830;
 }
 #vidPoster{
@@ -300,7 +295,7 @@ ft-expand{
 .ctaExpCont .ctaBtn {
   height: 8px;
   left: 464px;
-  top: 155px;
+  top: 153px;
   width: 60px;
 }
 .ctaExpCont #ctaTxt {
